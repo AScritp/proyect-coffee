@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Slab:wght@400;500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+   
+}
+
+/*BARRA DE NAVEGACIÓN*/
+.Barra{
+  background-color: rgb(110, 66, 0);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;  
+}
+
+.Barra .Logo{
+  cursor: pointer;
+}
+
+.Barra .Logo img{
+  height: 70px;
+  width: auto;
+  transition: all 0.3s;
+}
+
+.Barra .Logo img:hover{
+  transform: scale(1.2);
+}
+
+
+.Barra .Barra_nav li{
+  display: inline-block;
+  padding: 0 20px;
+  text-align: center;
+  
+}
+
+.Barra .Barra_nav li:hover{
+  transform: scale(1.1);
+}
+
+.Barra .Barra_nav li a:hover{
+  color: aliceblue;
+}
+
+.Barra .Barra_nav li a{
+  font-size: 700;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+/*BANNER*/
+.banner{
+  position: relative;
+  widows: 100%;
+  height: calc(108vh -50px);
+  background-image: url(images/background.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all;
+  padding: 100px;
+}
+
+.capa{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.Titulo{
+  font-family: 'Dancing Script',roboto slab;
+  text-align: center;
+  color: aliceblue;
+  display: flex;
+  margin: 20px;
+  width: 100%;
+  height: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-size: 30px;
+
+}
+
